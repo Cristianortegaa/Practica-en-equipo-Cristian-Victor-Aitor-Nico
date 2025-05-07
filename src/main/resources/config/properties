@@ -1,0 +1,6 @@
+database.url=jdbc:h2:./jugadores
+init.data=true
+init.tables=true
+cache.capacity=5
+local.time=es-ES
+data.imagenes=imagenes

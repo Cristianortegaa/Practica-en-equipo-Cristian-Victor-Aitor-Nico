@@ -1,0 +1,90 @@
+/* newTeam.css */
+
+/* Fondo principal */
+.root {
+    -fx-background-color: #fef9c3;
+}
+
+/* Barra superior */
+.hbox {
+    -fx-background-color: #007f5f;
+}
+
+#NewTeamlabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffdd00;
+}
+
+#PosicionLabel {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+/* Título "NEW TEAM" */
+.label {
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+/* Botones activos */
+.button {
+    -fx-background-color: #C7EA46;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+/* Botones inactivos */
+.button:disabled {
+    -fx-background-color: #f6f1a5;
+    -fx-text-fill: #999999;
+}
+
+/* Tarjetas de jugador */
+.player-card {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #80ed99;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 4, 0, 2, 2);
+}
+
+/* Texto de nombre de jugador */
+.player-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #023e3a;
+}
+
+/* Texto secundario */
+.player-position,
+.player-stats {
+    -fx-font-size: 12px;
+    -fx-text-fill: #333333;
+}
+
+/* Botón "Acerca de" */
+.about-button {
+    -fx-background-color: #ffdd00;
+    -fx-text-fill: #023e3a;
+    -fx-font-weight: bold;
+}
+
+#LadoIzquierdo {
+    -fx-background-color: #FFDB58;
+}
+
+#estadisticasButton {
+    -fx-background-color: #ffdd00;
+}
+
+#hboxposicion {
+    -fx-background-color: #FFE99B;
+}
+
+#tilePaneTarjetas {
+    -fx-background-color: #FFE99B;
+}
