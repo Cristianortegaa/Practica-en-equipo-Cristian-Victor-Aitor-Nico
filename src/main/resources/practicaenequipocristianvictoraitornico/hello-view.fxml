@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.net.URL?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.TilePane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
     <top>
         <HBox alignment="TOP_RIGHT" prefHeight="42.0" prefWidth="600.0" style="-fx-background-color: #007f5f;" BorderPane.alignment="CENTER">
             <children>
-                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" text="Salir">
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="123.0" text="Salir">
                     <HBox.margin>
                         <Insets left="2.0" top="7.0" />
                     </HBox.margin>
+               <graphic>
+                  <ImageView fitHeight="10.0" fitWidth="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/4115235-exit-logout-sign-out_114030%20(1).png" />
+                     </image></ImageView>
+               </graphic>
                 </Button>
-                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="103.0" text="Acerca De">
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="161.0" text="Acerca De">
                     <HBox.margin>
                         <Insets left="2.0" top="7.0" />
                     </HBox.margin>
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/acerca-de.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
                 </Button>
                 <Label fx:id="NewTeamlabel" alignment="CENTER" prefHeight="42.0" prefWidth="358.0" text="NEW TEAM" textFill="#ffdd00" />
-                <Button fx:id="estadisticasButton" alignment="TOP_RIGHT" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" text="Estadísticas" textFill="WHITE">
+                <Button fx:id="estadisticasButton" alignment="TOP_RIGHT" mnemonicParsing="false" prefHeight="26.0" prefWidth="146.0" text="Estadísticas" textFill="WHITE">
                     <HBox.margin>
                         <Insets right="5.0" top="6.0" />
                     </HBox.margin></Button>
