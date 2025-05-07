@@ -1,8 +1,7 @@
 package practicaenequipocristianvictoraitornico.common.service
 
 import com.github.michaelbull.result.Result
-import practicaenequipocristianvictoraitornico.players.models.Persona
-import java.nio.file.Path
+import practicaenequipocristianvictoraitornico.personal.models.Persona
 
 interface Service<T,E,ID> {
     fun getAll():List<Persona>

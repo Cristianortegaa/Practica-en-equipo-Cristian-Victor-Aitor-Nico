@@ -1,0 +1,7 @@
+package practicaenequipocristianvictoraitornico.personal.repository
+
+import practicaenequipocristianvictoraitornico.common.repository.Repository
+import practicaenequipocristianvictoraitornico.personal.models.Persona
+
+interface PersonalRepository:Repository <Persona,Long> {
+}
